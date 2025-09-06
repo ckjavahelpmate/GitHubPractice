@@ -5,10 +5,12 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginTest 
 {
- public static void main(String[]args)
- {
-	 WebDriver driver=new ChromeDriver();
+	private static WebDriver driver;
+    public static void main(String[]args)
+    {
+	 
+	 driver=new ChromeDriver();
 	 driver.manage().window().maximize();
 	 driver.get("https://www.amazon.com");
- }
+    }
 }
