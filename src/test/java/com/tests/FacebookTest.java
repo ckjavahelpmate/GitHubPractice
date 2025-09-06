@@ -13,8 +13,8 @@ public class FacebookTest {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://www.facebook.com/");
-		String facebookTitle = driver.getTitle();
-		System.out.println(facebookTitle +"::Facebook media launch");
+		
+	
 
 	}
 
